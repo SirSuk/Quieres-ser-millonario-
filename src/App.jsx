@@ -1,4 +1,4 @@
-import "./app.css"
+import "./App.css"
 import { useEffect, useMemo, useState } from "react";
 import Trivia from "./components/Trivia";
 import Timer from "./components/Timer";
@@ -16,22 +16,22 @@ function App() {
   const data = [
     {
       id: 1,
-      question: " ¿Quien es la mas guapa?",
+      question: " Pais mas poblado del mundo",
       answers: [
         {
-          text: "Fatima",
-          correct: false,
-        },
-        {
-          text: "Ghada",
+          text: "China",
           correct: true,
         },
         {
-          text: "Khadija",
+          text: "Estados Unidos",
           correct: false,
         },
         {
-          text: "Malika",
+          text: "Rusia",
+          correct: false,
+        },
+        {
+          text: "India",
           correct: false,
         },
       ],
